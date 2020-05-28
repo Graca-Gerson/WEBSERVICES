@@ -1,0 +1,19 @@
+#INCLUDE "TOTVS.CH"
+#INCLUDE "APWEBEX.CH"
+         
+
+User Function aula
+            
+Local cHTML := ""
+
+//CHAMA A MESMA FUNÇÃO - SÓ QUE O APH (UM DEPENDE DO OUTRO) -- O APH ESTÁ CHAMANDO ABAIXO
+WEB EXTENDED INIT CHTML
+
+Private cTitulo := " Aula Web Service "
+
+//NOME DO ARQUIVO APH PARA EXIBIÇÃO
+CHTML := EXECINPAGE("INDEX")
+
+WEB EXTENDED END
+
+Return( cHTML )

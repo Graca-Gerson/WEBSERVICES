@@ -1,0 +1,12 @@
+Function U_TSoma()
+
+Local nCnt
+Local nSoma := 0
+
+For nCnt := 1 To 10
+	nSoma += nCnt
+next
+
+MsgAlert(Str(nSoma))
+
+Return

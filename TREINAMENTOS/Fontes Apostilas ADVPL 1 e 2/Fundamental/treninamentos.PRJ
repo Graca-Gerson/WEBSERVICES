@@ -1,0 +1,257 @@
+Group Treinamento
+   Version=7.0
+   VSSDB=
+   HasProperties=1
+   Properties
+      BeforeApply=
+      AfterApply=
+      Icon=
+      ID=
+      Version=
+      PalmName=
+      OutPut=
+   End
+   ProjectsCount=1
+   Project Novo Projeto
+      FoldersCount=2
+      Folder Fontes
+         VSSPath=Fontes
+         FilesCount=0
+      End
+      Folder Definições
+         VSSPath=Definições
+         FilesCount=77
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\CalcFat.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\CalcFat1.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\CalcFato.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\CalcFator.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\Calcul.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\Calcula.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\DirFat.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\DirFator.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA1.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA2.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA3.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA4.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA5.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA6.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA7.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA8.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA9.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA10.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA11.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA12.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA13.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA14.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA15.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA16.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA17.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA18.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA19.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA20.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA21.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA22.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA23.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA24.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA25.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA26.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA27.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA28.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA29.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA30.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA31.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA32.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA33.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA34.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA35.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA36.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA37.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA38.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA39.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\FA40.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\MBrwSA2.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\MFBrwSA2.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TA1.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TA2.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TA3.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TA4.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TArray.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TCalc.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TCalc2.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TCalc3.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TCalX.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TCalXn.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TCASE.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TD1.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TF1.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TF2.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TFor.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TForca.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TIf.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TIFELSE.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TLinha.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TOper.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TPai.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TPaiP.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TPaiPUB.PRW
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TPaiS.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TSoma.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\TWhile.prw
+             Type=T
+         End
+         File \Users\breno.menezes\Desktop\ADVPL Fundamental e Avançado\Fundamental\XCadSA2.prw
+             Type=T
+         End
+      End
+   End
+End

@@ -1,0 +1,248 @@
+Group Fontes
+   Version=7.0
+   VSSDB=
+   HasProperties=1
+   Properties
+      BeforeApply=
+      AfterApply=
+      Icon=
+      ID=
+      Version=
+      PalmName=
+      OutPut=
+   End
+   ProjectsCount=1
+   Project Novo Projeto
+      FoldersCount=2
+      Folder Fontes
+         VSSPath=Fontes
+         FilesCount=74
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TArray.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TCASE.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TIFELSE.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TIf.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TForca.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TWhile.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TFor.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TCalXn.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TCalX.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TCalc3.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TCalc2.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TCalc.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TPaiPUB.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TPaiP.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TPaiS.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TPai.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\CalcFator.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TLinha.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TSoma.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TA1.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TA2.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TA3.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TA4.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\Calcula.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TF1.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TF2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\Calcul.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\CalcFat.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\DirFator.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\DirFat.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\TD1.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\XCadSA2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\MBrwSA2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\MFBrwSA2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA1.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA3.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA5.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA6.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA7.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA8.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA9.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA10.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA4.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA11.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA12.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA13.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA14.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA15.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA16.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA17.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA18.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA19.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA20.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA21.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA22.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA23.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA24.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA25.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA26.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA27.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA28.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA29.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA30.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA31.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA32.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA33.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA34.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA35.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA36.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA37.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA38.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA39.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Arquivos\FA40.prw
+             Type=T
+         End
+      End
+      Folder Definições
+         VSSPath=Definições
+         FilesCount=0
+      End
+   End
+End

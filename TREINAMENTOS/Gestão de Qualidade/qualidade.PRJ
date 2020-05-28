@@ -1,0 +1,59 @@
+Group qualidade
+   Version=7.0
+   VSSDB=
+   HasProperties=1
+   Properties
+      BeforeApply=
+      AfterApply=
+      Icon=
+      ID=
+      Version=
+      PalmName=
+      OutPut=
+   End
+   ProjectsCount=1
+   Project Novo Projeto
+      FoldersCount=2
+      Folder Fontes
+         VSSPath=Fontes
+         FilesCount=11
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qdom700.prw
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qdom710.prw
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qdom720.prw
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qie010tp.prw
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qie010vp.prw
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qiea231.ch
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qiea231.prw
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qiem021.ch
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qiem021.prw
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qier111.ch
+             Type=T
+         End
+         File \Totvs\Microsiga\Protheus\my projects\Gestão de Qualidade\qier111.prw
+             Type=T
+         End
+      End
+      Folder Definições
+         VSSPath=Definições
+         FilesCount=0
+      End
+   End
+End

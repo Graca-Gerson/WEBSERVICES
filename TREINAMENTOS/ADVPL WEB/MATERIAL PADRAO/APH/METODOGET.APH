@@ -1,0 +1,10 @@
+<html>
+<head>
+<title>Metodo Get</title>
+<body>
+<p>Exemplo de Metodo GET</p>
+<p><a href="u_EXMETODOGET.apw?var1=Teste_do_metodo_Get_&Var2=ExemploGet">Teste de metodo GET</a></p>
+<p></p>
+<p><a href="u_aula.apw">Voltar para o Index</a></p>
+</body>
+</html>

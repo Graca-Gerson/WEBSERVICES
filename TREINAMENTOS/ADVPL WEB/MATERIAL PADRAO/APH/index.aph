@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<p>Bem vindos a Turma de ADVPL WEB </p>
+<p>Maio/2020</p>
+<p>Anderson Ciriaco</p>
+
+<p>Por enquanto n&atilde;o &eacute; pra ficar bonito.... &eacute; para ficar funcional</p>
+
+<p>Quer perfumaria? vai na loja da Botic&aacute;rio</p>
+<p></p>
+<p>Exemplo de Metodo GET</p>
+<p><a href="u_EXMETODOGET.apw">Teste de metodo GET</a></p>
+<p></p>
+<p>Exemplo de Metodo Post</p>
+<p><a href="u_METODOPOST.apw">Teste de metodo POST</a></p>
+<p></p>
+<p>Exemplo de uso de Sessions</p>
+<p><a href="u_TSTSESSION.apw">Exemplo de uso de Sessions</a></p>
+
+<p></p>
+<p>Tela inicial para a selecao de empresa/Filial</p>
+<p><a href="u_TlIniWB.apw">Tela inicial para a selecao de empresa/Filial</a></p>
+
+</body>
+</html>

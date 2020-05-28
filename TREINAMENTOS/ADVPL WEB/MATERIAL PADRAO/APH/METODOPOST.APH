@@ -1,0 +1,9 @@
+<html><body>
+<form method='POST' action='http://localhost:90/u_METODOPOST.apw'>
+Teste:<input type='text' name='Codigo' size='10'>
+<hr>
+<input type='submit'>
+</form>
+<p></p>
+<p><a href="u_aula.apw">Voltar para o Index</a></p>
+</body></html>

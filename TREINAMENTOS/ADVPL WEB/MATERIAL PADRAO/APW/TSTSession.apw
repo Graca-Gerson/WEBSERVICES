@@ -1,0 +1,37 @@
+#INCLUDE 'PROTHEUS.CH'
+#INCLUDE 'APWEBEX.CH'
+
+USER FUNCTION TSTSESSION()
+LOCAL CHTML := ''
+LOCAL CECHO := ''
+
+//EXEMPLO DE USO DE VARIAVEIS HTTPSESSION
+Web Extended INIT cHtml
+
+//A MESMA É UTILIZADA PARA ATRIBUIR E COMPARAR DADOS COMO NO ADVPL CONVENCIONAL
+IF HTTPSESSION->mycounter = NIL
+
+cEcho := 'Incializando contador'
+conout(cEcho)
+cHtml += cEcho
+
+HTTPSESSION->mycounter := 1
+
+Else
+
+HTTPSESSION->mycounter ++
+
+cEcho := 'Contator em '+str(httpSession->mycounter,3)
+
+conout(cEcho)
+
+endif
+
+cHtml += cEcho + '<hr>'
+
+cHtml += '<p></p>'
+cHtml += '<p><a href="u_aula.apw">Voltar para o Index</a></p>'
+
+Web Extended END
+
+Return cHTML

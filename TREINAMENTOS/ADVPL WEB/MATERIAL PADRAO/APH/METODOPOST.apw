@@ -1,0 +1,18 @@
+#INCLUDE'APWEBEX.CH'
+
+USER FUNCTION METODOPOST()
+LOCAL CHTML := ""
+
+WEB EXTENDED INIT CHTML
+
+IF!EMPTY(HttpPost->Codigo)
+
+conout(HttpPost->Codigo)
+
+Endif
+
+//Chamada do APH
+cHtml := ExecInPage("METODOPOST")
+
+WEB EXTENDED END
+RETURN(CHTML)

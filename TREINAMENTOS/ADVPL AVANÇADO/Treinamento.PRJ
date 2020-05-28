@@ -1,0 +1,119 @@
+Group Fontes 
+   Version=7.0
+   VSSDB=
+   HasProperties=1
+   Properties
+      BeforeApply=
+      AfterApply=
+      Icon=
+      ID=
+      Version=
+      PalmName=
+      OutPut=
+   End
+   ProjectsCount=1
+   Project Novo Projeto
+      FoldersCount=2
+      Folder Fontes
+         VSSPath=Fontes
+         FilesCount=31
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\XCadSA2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MBrwSA1.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MBrw1SA1.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MBrwSA2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MkBrwSA1.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\TE01.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MBrw2Sx5.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\xModelo3.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MbrwMod3.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\FBG01.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MyReport.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\RSimples.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\tReport_SQL.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\ParamBox.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\FA02.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\FA03.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\GeraTXT.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\LeTXT.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MrbwGtCl.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\FT01.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\COMP011_MVC.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\MVC001.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\GRptStatus.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\GProces1.PRW
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\GProces2.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\GMsAguarde.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\ListBoxIte.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\List_Box.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\GMsgRun.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\Scroll.prw
+             Type=T
+         End
+         File \Users\aluno.CLOUDEDUCATION\Desktop\Avancado\GetAnswer.prw
+             Type=T
+         End
+      End
+      Folder Definições
+         VSSPath=Definições
+         FilesCount=0
+      End
+   End
+End
