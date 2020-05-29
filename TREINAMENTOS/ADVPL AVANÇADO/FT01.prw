@@ -7,7 +7,7 @@ Local cAlias 	:= "MEUALIAS"
 Local cQuery
 
 //-------------------
-//Criação do objeto
+//Criação do objeto gerson
 //-------------------
 oTempTable := FWTemporaryTable():New( cAlias )
 
