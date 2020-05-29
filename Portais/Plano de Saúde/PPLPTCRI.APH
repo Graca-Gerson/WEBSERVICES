@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="<%=GetPrtSkin()%>/estilo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="pplanguage.js"></script>
+<script type="text/javascript" src="criaobj.js"></script>
+<script type="text/javascript" src="<%=GetPrtSkin()%>/jspls.js"></script>
+<script language="Javascript">
+<!--                                      
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ Verifica dias entre as datas										   ³
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function diferencaDias(data1, data2) {
+		    dif = Date.UTC(data2.substr(6,4),data2.substr(3,2),data2.substr(0,2),0,0,0)-Date.UTC(data1.substr(6,4),data1.substr(3,2),data1.substr(0,2),0,0,0);    
+		    return Math.abs( ( dif / 1000 / 60 / 60 / 24) );
+		}
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ Envia formulario													   ³
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function fEnvia(nDias) {
+		    if ( diferencaDias(document.getElementById('cDtDe').value,document.getElementById('cDtAte').value) > nDias) {
+		    	alert('Permitido somente intervalo de no maximo '+nDias+' dia(s)')
+		    	return
+			 }
+		
+			if( !valida() )	return;
+			Ajax.open("W_PPLPTGRV.APW?cDtDe="+document.getElementById('cDtDe').value+"&cDtAte="+document.getElementById('cDtAte').value, {callback: CarregaEnvForm, error: ExibeErro} );
+		}
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ Monta campos conforme processamento da rdas							   ³
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function CarregaEnvForm(v) { 
+		    document.forms[0].action = "W_PPLPTEXB.APW";
+			document.forms[0].submit();
+		}    
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ Exibe erros no processamento das funcoes						 	   ³ 
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function ExibeErro(v) {                   
+			var aResult = v.split("|"); 
+            
+			if (aResult[0] != "true" && aResult[0] != "false")
+		       alert("Erro: " + aResult[0])
+		    else {   
+				if (aResult[0] == "false") {
+				  alert(aResult[1]);          
+                                                 	
+				  if(typeof cCampoRef != 'undefined' && !document.getElementById(cCampoRef).disabled)
+					  document.getElementById(cCampoRef).focus();
+				}   
+			}	
+		}		
+//-->
+</script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form name="form1" method="post" action="">
+<div id="ModalPage">
+<div class="ModalBackground"></div>
+<div id="ModalContainer" class="ModalContainer"></div>
+</div>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr> 
+<td width="711" height="19" valign="top" class="textobold2">
+<table width="760" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<table width="754" border="0" align="center" cellpadding="0" cellspacing="2">
+<tr>
+<td height="30" class="TituloCab">&raquo; Par&acirc;metros ( Cria&ccedil;&atilde;o de Protocolo )</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr align="center">
+<td><table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><table border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#EDEDED" bgcolor="#EDEDED">
+<tr>
+<td bordercolor="#FFFFFF">
+<table width="560" border="0" align="center" cellpadding="0" cellspacing="2">
+<tr>
+<td align="right" class="TextoLabel">Data De:&nbsp;</td>
+<td>
+	<input name="cDtDe" type="text" class="TextoInputOB" size="18" maxlength="10" value="<%=Date()-(HttpSession->USR_INFO[1]:OWSUSERLOGPLS:nINTDAT-1)%>" onKeyPress="return TxtBoxFormat(this, '99/99/9999', event);" onBlur="ValidaCmp(this,'data','Data invalida');">
+</td>
+</tr>
+<tr>
+<td align="right" class="TextoLabel">Data Ate:&nbsp;</td>
+<td>
+	<input name="cDtAte" type="text" class="TextoInputOB" size="18" maxlength="10" value="<%=Date()%>" onKeyPress="return TxtBoxFormat(this, '99/99/9999', event);" onBlur="ValidaCmp(this,'data','Data invalida');">
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td align="center"><input type="button" name="button2" value="confirmar" class="Botoes" onClick="fEnvia(<%=HttpSession->USR_INFO[1]:OWSUSERLOGPLS:nINTDAT%>)"></td>
+</tr>
+</table></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>

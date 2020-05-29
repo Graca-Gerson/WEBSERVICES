@@ -1,0 +1,156 @@
+<%
+LOCAL nI
+LOCAL oObj := WSPLSPROT():New() 
+WsChgURL( @oObj, "PLSPROT.APW" )    
+oObj:cUSERCODE 	:= "MSALPHA"                 
+oObj:cRda		:= HttpSession->RDAVIEW[1]:CCODE                 
+lRet := oObj:GETPTABT()
+
+If lRet
+	cTitulo := IIf(Len(oObj:OWSGETPTABTRESULT:CSTRING)>1,"Protocolos em aberto:","Protocolo em aberto:")
+Else
+	cTitulo := "N&atilde;o h&aacute; Protocolos em aberto."
+EndIf
+%>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="<%=GetPrtSkin()%>/estilo.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="pplanguage.js"></script>
+<script type="text/javascript" src="criaobj.js"></script>
+<script type="text/javascript" src="<%=GetPrtSkin()%>/jspls.js"></script>
+<script language="Javascript">
+<!--                                      
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ So aceita digitacao numerica								   		   ³
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function SomenteNumero(e){
+		    var tecla=(window.event)?event.keyCode:e.which;   
+		    if((tecla>47 && tecla<58)) return true;
+		    else{
+		    	if (tecla==8 || tecla==0) return true;
+			else  return false;
+		    }
+		}
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ Envia formulario													   ³
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function fEnvia() { 
+
+			<% If  Len(oObj:OWSGETPTABTRESULT:CSTRING) == 1 %>
+				document.forms[0].action = "W_PPLPTCFR.APW?cPt=" + document.form1.SelProt.value;
+			<% Else %>
+				for (var i=0; i < document.form1.SelProt.length; i++) {
+					if (document.form1.SelProt[i].checked) {
+						break;
+					}
+				}
+			    if ( document.form1.SelProt.length == i) {
+			    	alert('Selecione um Protocolo!');
+			    	return;
+				 }
+				document.forms[0].action = "W_PPLPTCFR.APW?&cPt=" + document.form1.SelProt[i].value;
+			<% EndIf %>
+
+			Ajax.open(document.forms[0].action, {callback: CarregaEnvForm, error: ExibeErro} );
+		}
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ Monta campos conforme processamento da rdas							   ³
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function CarregaEnvForm(v) { 
+		    document.forms[0].action = "W_PPLPTEXB.APW";
+			document.forms[0].submit();
+		}    
+		//ÚÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¿
+		//³ Exibe erros no processamento das funcoes						 	   ³ 
+		//ÀÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÙ
+		function ExibeErro(v) {                   
+			var aResult = v.split("|"); 
+            
+			if (aResult[0] != "true" && aResult[0] != "false")
+		       alert("Erro: " + aResult[0])
+		    else {   
+				if (aResult[0] == "false") {
+				  alert(aResult[1]);          
+                                                 	
+				  if(typeof cCampoRef != 'undefined' && !document.getElementById(cCampoRef).disabled)
+					  document.getElementById(cCampoRef).focus();
+				}   
+			}	
+		}		
+
+//-->
+</script>
+</head>
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+<form name="form1" method="post" action="">
+<div id="ModalPage">
+<div class="ModalBackground"></div>
+<div id="ModalContainer" class="ModalContainer"></div>
+</div>
+<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
+<tr> 
+<td width="711" height="19" valign="top" class="textobold2">
+<table width="760" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td>
+<table width="754" border="0" align="center" cellpadding="0" cellspacing="2">
+<tr>
+<td height="30" class="TituloCab">&raquo; Par&acirc;metros ( Confer&ecirc;ncia de Guias )</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr align="center">
+<td><table border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td><table border="1" align="center" cellpadding="0" cellspacing="0" bordercolor="#EDEDED" bgcolor="#EDEDED">
+<tr>
+<td bordercolor="#FFFFFF">
+<table width="560" border="0" align="center" cellpadding="0" cellspacing="2">
+<tr>
+<td></td><td align="left" class="TituloCab"><%=cTitulo%></td>
+</tr>
+<% For nI := 1 To Len(oObj:OWSGETPTABTRESULT:CSTRING) %>
+	<tr> 
+		<td class="TextoLabel" width="1%"><input type="radio" name="SelProt" value="<%=oObj:OWSGETPTABTRESULT:CSTRING[nI]%>" <%=IIf( Len(oObj:OWSGETPTABTRESULT:CSTRING) == 1, "checked", "" )%>></td>
+		<td class="TextoLabel"><%=oObj:OWSGETPTABTRESULT:CSTRING[nI]%></td>
+	</tr>
+<% Next %>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</tr>
+<% If lRet %>
+<tr>
+<td><input type="button" name="button1" value="Listar Guias" class="Botoes" onClick="fEnvia()"></td>
+</tr>
+<% EndIf %>
+</table></td>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+<tr>
+</tr>
+<tr>
+<td>&nbsp;</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
